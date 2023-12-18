@@ -24,3 +24,6 @@ learn_elixir_in_action-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Ignore elixir_ls directory
+.elixir_ls
