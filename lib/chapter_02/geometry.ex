@@ -4,7 +4,7 @@ defmodule Chapter02.Geometry do
 
   2.3 Organizing your code
     2.3.1 Modules
-      Listing 2.1. Defining a module (geometry.ex)
+      Listing 2.1. Defining a module
   """
   def rectangle_area(length, width) do
     length * width
