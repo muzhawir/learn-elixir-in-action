@@ -4,7 +4,7 @@ defmodule Chapter02.Arity do
 
   2.3 Organizing your code
     2.3.3 Function Arity
-      Listing 2.2. Functions with the same name but different arities (arity_demo.ex)
+      Listing 2.2. Functions with the same name but different arities
   """
   def rectangle_area(area), do: rectangle_area(area, area)
 
