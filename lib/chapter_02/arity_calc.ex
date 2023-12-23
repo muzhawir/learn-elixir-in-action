@@ -4,7 +4,7 @@ defmodule Chapter02.ArityCalc do
 
   2.3 Organizing your code
     2.3.3 Function Arity
-      Listing 2.3. Listing 2.3. Same-name functions, different arities, default params
+      Listing 2.3. Same-name functions, different arities, default params
   """
   def add(number), do: add(number, 0)
 
