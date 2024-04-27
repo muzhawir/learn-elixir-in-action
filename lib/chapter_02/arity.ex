@@ -6,7 +6,9 @@ defmodule Chapter02.Arity do
     2.3.3 Function Arity
       Listing 2.2. Functions with the same name but different arities
   """
-  def rectangle_area(area), do: rectangle_area(area, area)
+  @spec area(number()) :: number()
+  def area(area), do: area(area, area)
 
-  def rectangle_area(length, width), do: length * width
+  @spec area(number(), number()) :: number()
+  def area(length, width), do: length * width
 end
