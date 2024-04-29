@@ -6,11 +6,10 @@ defmodule Chapter02.PrivateFunction do
     2.3.4 Function Visibility
       Listing 2.4. Module with a public and a private function
   """
+  @spec double(number()) :: number()
   def double(number) do
     sum(number, number)
   end
 
-  defp sum(first_number, second_number) do
-    first_number + second_number
-  end
+  defp sum(first_number, second_number), do: first_number + second_number
 end

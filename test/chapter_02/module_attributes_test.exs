@@ -1,7 +1,7 @@
-defmodule Chapter02.ModuleAttributesDocTest do
+defmodule Chapter02.ModuleAttributesTest do
   use ExUnit.Case
 
-  import Chapter02.ModuleAttributesDoc
+  import Chapter02.ModuleAttributes
 
   test "Calculate area of circle", do: assert(314.159 === circle_area(10))
 
